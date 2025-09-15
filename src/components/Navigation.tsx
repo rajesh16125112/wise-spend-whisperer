@@ -10,7 +10,8 @@ import {
   Settings, 
   Menu,
   Bot,
-  Bell
+  Bell,
+  Gamepad2
 } from "lucide-react";
 
 const navigation = [
@@ -33,6 +34,11 @@ const navigation = [
     name: "Analytics",
     href: "/analytics",
     icon: TrendingUp,
+  },
+  {
+    name: "Cricket Game",
+    href: "/cricket",
+    icon: Gamepad2,
   },
   {
     name: "Settings",
